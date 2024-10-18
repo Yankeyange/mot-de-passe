@@ -3,25 +3,25 @@
 import random
 
 
-# permet de genrer deux lettres miniscules aléartoire
+# permet de generer deux lettres miniscules aléartoire dans le code ASCII
 num = random.randint(97, 122)
 nums =random.randint(97, 122)
 
 concate = chr(num) + chr(nums)
 
-# permet de generer deux lettres majuscules aléartoire
+# permet de generer deux lettres majuscules aléartoire dans le code ASCII
 upper = random.randint(65,90)
 uppers = random.randint(65, 90)
 
 cases = chr(upper) + chr(uppers)
 
-# permet de generer deux chiffres aléartoire
+# permet de generer deux chiffres aléartoire dans le code ASCII
 a = random.randint(48,57)
 b = random.randint(48, 57)
 
 c = chr(a) + chr(b)
 
-# permet de genere des symbols aléartoire
+# permet de genere des symbols aléartoire  dans le code ASCII
 s = random.randint(33, 47)
 ss = random.randint(33, 47)
 
