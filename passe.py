@@ -27,9 +27,17 @@ ss = random.randint(33, 47)
 
 sss = chr(s) +  chr(ss)
 
+# on créer une liste dans laquelle sera toute mes différentes variables
+result = [concate, cases, c, sss]
+
+# on mélange le les caractères de notre mot de passe avec random.shuffle
+result = random.shuffle(result)
+
+# sans oublier de concatener sinon rien ne va sortant (None)
 
 result = concate + cases + c + sss
 
+# ici je demande à l'utilisateur de mettre son nom
 name = input("Quelle est votre nom : ")
 
 
